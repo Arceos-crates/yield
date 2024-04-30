@@ -56,7 +56,7 @@ SECTIONS
         . = ALIGN(64);
         _percpu_size_aligned = .;
 
-        . = _percpu_load_start + _percpu_size_aligned * 1;
+        . = _percpu_load_start + _percpu_size_aligned * 4;
     }
     . = _percpu_start + SIZEOF(.percpu);
     _percpu_end = .;
