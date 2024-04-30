@@ -12,3 +12,4 @@ sched_cfs = ["axstd?/sched_cfs"]
 
 [dependencies]
 axstd = { git = "https://github.com/Arceos-crates/axstd.git", features = ["multitask"], optional = true }
+log = "0.4.17"

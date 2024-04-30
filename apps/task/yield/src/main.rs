@@ -5,6 +5,8 @@
 #[cfg(feature = "axstd")]
 extern crate axstd as std;
 
+extern crate log;
+
 use std::sync::atomic::{AtomicUsize, Ordering};
 use std::thread;
 
